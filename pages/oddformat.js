@@ -4,7 +4,6 @@ export default function oddNumbs(numbers) {
     for (let j = 0; j < numbers.length; j++) {
       if (numbers[i] === numbers[j]) {
         count++;
-        console.log("jegerlik", count, numbers[i]);
       }
     }
     if (count % 2 !== 0) {
